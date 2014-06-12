@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+#mostrar_empresa label{
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+    padding-right: 10px;
+}
+#mostrar_empresa p {
+    display: inline-block;
+    width: 250px;
+}
+
+#buscar label {
+    padding-top: 6px;    
+}
+
+#zona_menu.empresas {
+    width: 80px;    
+}
+
+#mostrar_empresa label {
+    font-weight: 700;
+}
+
+#editar_empresa label {
+    font-weight: 700;
+    width: 150px;
+    display: inline-block;
+    padding: 4px 10px 4px 0;
+    text-align: right;
+    vertical-align: top;    
+}
+
+#editar_empresa input, #editar_empresa select, #editar_empresa textarea {
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 2px 6px;
+    border: 1px solid #ccc;
+    border-top: 2px solid #ddd;
+}
+
+#editar_empresa textarea {
+    height: 50px;
+}
+
+#editar_empresa select {
+    width: 263px;
+}
+#editar_empresa .radios {
+    width: 50px;
+}
+
+#editar_empresa .etiqueta_radio {
+    width: 400px;
+    display: inline-block;
+}
+
+#editar_empresa .form_checkbox {
+    margin-top: 4px;
+}
+
+#editar_empresa input#mc_guardar, #editar_empresa input#mc_cancelar {
+    width: 110px;
+    border: none;    
+    display: inline-block;
+    float: none;
+}
+textarea {
+    height: 50px;
+}
+
+.boton_mas, .boton_menos {
+    width: 10px;
+    background: #00afef;
+    color: #fff;
+    padding: 4px 8px;
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;     
+}
+.boton_menos {
+    border-top: 1px solid #fff;
+}
+
+.txt_cantidad {
+    width: 100px !important; 
+}
+
+.txt_descripcion {
+    width: 390px !important; 
+}
+
+.txt_unidad {
+    width: 100px !important;     
+}
+
+.txt_precio {
+    width: 100px !important; 
+    text-align: right !important;
+}
+
+.txt_importe {
+    width: 100px !important; 
+    text-align: right !important;
+}
+.txt_cantidad, .txt_descripcion, .txt_unidad, .txt_precio, .txt_importe {
+    margin-left: 8px;
+}
+label.txt_cantidad, label.txt_descripcion, label.txt_unidad, label.txt_precio, label.txt_importe, label.txt_subtotal, label.txt_iva, label.txt_total {
+    text-align: center !important;
+    background: #00afef;
+    color: #fff;
+    padding: 4px;
+}
+
+input.txt_descripcion {
+    margin-left: 5px; 
+}
+.original {
+    display: none;
+}
+
+label.txt_subtotal, label.txt_iva, label.txt_total {
+    float: left;
+    width: 180px !important;
+    margin-left: 15px;
+    padding-bottom: 6px;   
+    text-align: right !important;
+}
+
+input.txt_subtotal, input.txt_iva, input.txt_total {
+    width: 222px !important;
+    margin-left: 10px;
+    text-align: right;
+}
+
+input#mc_cliente {    
+    margin-left: -4px;
+}
+
+.informacion_cliente {
+    width: 350px;
+    margin: 0 10px 10px 10px;
+}
+.informacion_cliente h5 {
+    color: #00f;
+    font-weight: 700;    
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.informacion_cliente p{
+    width: 350px;
+    padding-left: 0;
+    margin: 0;
+    color: #000;
+}

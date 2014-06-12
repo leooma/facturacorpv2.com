@@ -1,0 +1,129 @@
+@import url(grilla.css);
+@import url(reset.css);
+@import url(ui.notify.css);
+/* CSS Document */
+html { 				
+}
+
+body {		
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.015em;
+    word-spacing: 0.050em;
+    font-style:normal;
+    font-weight:normal;
+    font-size: 11px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background: #0a3d8e url('../img/ph-104031.jpg') no-repeat;
+} 
+
+h1, h2, h3, h4, h5, h6, p { margin: 0 0 0.75em 0; padding: 0 0 0.025em 0; }
+
+h1, h2, h3, h4, h5, h6 { font-family: Verdana, Geneva, sans-serif; text-align: center;  }
+
+h1 { font-size: 4em;  }
+h2 { font-size: 1.75em; padding: 0; margin: 0 0 0.5em 0; color: #fff;}
+h3 { font-size: 1.5em; color: #fff; }
+h4 { font-size: 1.125em; }
+h5 { font-size: 1.06em; }
+h6 { font-size: 1em; }
+
+hr { height: 1px; width: 100%; margin: 1.5em 0; border: 1px solid #fff; border-top: 1px dotted #fff; display: block; clear: both; }
+
+strong { font-weight: 700;  }
+
+img {  margin: 0; padding: 0; float: left; }
+
+.right { float: right; }
+.center { margin: 0 auto; text-align: center; }
+.bold { font-weight: bold; }
+.italic { font-style:italic; }
+
+.login {
+    width: 400px;
+    background: #fff;
+    margin: 100px 200px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+    border: 20px solid rgba(0,0,0,0.3);
+    float: left;
+    
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    -moz-background-clip: content;     /* Firefox 3.6 */
+    -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+    background-clip: content-box;      
+}
+
+.login h1 {
+    font-size: 18px;
+    background: #66b9e1;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #000;
+    
+    
+}
+
+.login label {
+    width: 100px;   
+    margin-left: 20px;
+    text-align: right;
+    
+}
+.login label, .login input {
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login input{
+    width: 200px;   
+    border-radius: 5px;
+    border: 1px solid #ccc;    
+}
+
+.login button {    
+    background: url("../img/btn_fondo.png") no-repeat top left; 
+    color: #fff;
+    border: none;
+    font-size: 12px;    
+    font-weight: 700;
+    margin: 10px 0 20px 140px;
+    height: 25px;
+    text-shadow: 1px 1px 1px black;   
+    width: 95px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+}
+.login button:hover {
+    background: url("../img/btn_fondo_over.png") no-repeat; 
+}
+#pie-pagina {
+    margin-bottom: 10px;
+}
+#pie-pagina, .desarrollo{
+    width: 420px;
+    float: left;
+    margin-left: 200px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: .8;
+    box-shadow: 1px 1px 5px #000;
+    
+    
+}
+#pie-pagina p, .desarrollo p {
+    color: #000;
+    float: left;
+}

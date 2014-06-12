@@ -1,0 +1,129 @@
+cliente: 
+  campos:      
+    id: 
+      campo: id
+      caption: Cliente
+      tipo: primary_key  
+    rfc:
+      campo: rfc
+      caption: RFC
+      requerido: true
+      maxlength: 13
+      mayusculas: true
+      tipo: rfc      
+    razon_social:
+      campo: razon_social
+      caption: Razón social
+      requerido: true
+      maxlength: 60
+      mayusculas: true
+      tipo: text     
+    tipo_persona:
+      campo: tipo_persona
+      caption: Tipo de persona
+      tipo: radio
+      options:
+        1: Fisica
+        2: Moral
+    telefono:
+      campo: telefono
+      caption: Teléfono
+      maxlength: 20
+      tipo: telefono
+    alias:
+      campo: alias
+      caption: Alias
+      requerido: true
+      maxlength: 50
+      tipo: text
+    contacto:
+      campo: contacto
+      caption: Contacto
+      tipo: text
+    email_contacto:
+      campo: email_contacto
+      caption: Email contacto
+      tipo: email
+    calle:
+      campo: calle
+      caption: Calle
+      requerido: true
+      maxlength: 50
+      tipo: text
+    numero_exterior:
+      campo: numero_exterior
+      caption: Número exterior
+      requerido: true
+      maxlength: 50
+      tipo: text
+    numero_interior:
+      campo: numero_interior
+      caption: Número interior
+      maxlength: 50
+      tipo: text
+    referencia:
+      campo: referencia
+      caption: Referencia
+      maxlength: 100
+      tipo: text
+    colonia:
+      campo: colonia
+      caption: Colonia
+      maxlength: 150
+      tipo: text
+    localidad:
+      campo: localidad
+      caption: Localidad
+      maxlength: 150
+      tipo: text
+    municipio:
+      campo: municipio
+      caption: municipio
+      maxlength: 100
+      tipo: text
+    codigo_postal:
+      campo: colonia
+      caption: Colonia
+      maxlength: 5
+      tipo: text
+    pais:
+      campo: pais
+      caption: País
+      requerido: true
+      mayusculas: true
+      maxlength: 100
+      tipo: text      
+  primary_key: id
+  
+  listar: 
+    campos:    
+      rfc: 250
+      razon_social: 250    
+    campo_aviso: razon_social
+      
+  buscar: 
+    blockes:      
+      Buscar:
+        titulo: busqueda
+        estilo: lineal
+        columnas: 2
+        campos: [rfc, razon_social, alias]  
+        
+  capturar:
+    blockes:
+      Datos empresa: 
+        campos: [rfc, razon_social, tipo_persona, telefono, alias, contacto, email_contacto, calle, numero_exterior, numero_interior, referencia, colonia, localidad, municipio, codigo_postal, pais]      
+    js: [cliente.js]
+  
+  menu:
+    buscar:
+      caption: Buscar
+      accion: 'buscar'
+    registra:
+      caption: Nuevo
+      accion: nuevo     
+  
+  actions: ['buscar', 'nuevo']      
+
+  modulo: cliente
+  nombre_modulo: Clientes

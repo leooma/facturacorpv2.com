@@ -1,0 +1,51 @@
+fieldset {
+    margin-bottom: 20px;
+}
+.boton_nuevo_cliente {   
+    background: url("../img/btn_fondo.png") no-repeat; 
+}
+.boton_nuevo_cliente:hover{
+    background: url("../img/btn_fondo_over.png") no-repeat;     
+}
+
+.boton_nuevo_cliente a, .crear_concepto a
+{    
+    height: 25px;  
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    padding: 6px 0 0 28px;
+    text-decoration: none;
+}
+
+.boton_nuevo_cliente a
+{
+    background: url("../img/agregar.png") no-repeat 8px 5px;     
+    width: 95px;        
+}
+.boton_nuevo_cliente a:hover{
+     background: url("../img/agregar.png") no-repeat 8px 5px; 
+}
+
+.crear_concepto {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.crear_concepto {   
+    background: url("../img/btn_fondo_largo.png") no-repeat; 
+    margin: 4px 0 0 10px;
+}
+.crear_concepto:hover{
+    background: url("../img/btn_fondo_largo_over.png") no-repeat;     
+}
+.crear_concepto a
+{
+    background: url("../img/agregar.png") no-repeat 8px 5px;     
+    width: 95px;
+    font-size: 10px;
+}
+.crear_concepto a:hover{
+     background: url("../img/agregar.png") no-repeat 8px 5px; 
+}

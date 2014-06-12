@@ -1,0 +1,28 @@
+div.navigator{
+    font-size:smaller;
+    padding:5px;
+    text-align:center;
+}
+div.totalpagesdisplay{
+    font-style:italic;
+    font-size: 8pt;
+    text-align: center;
+    padding-top: 15px;
+}
+.navigator a, span.inactive{
+    margin-left:0px;
+    border-top:1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 0px 5px 2px 5px;
+}
+.navigator a:link, .navigator a:visited, .navigator a:hover, .navigator a.active {
+    color: #5c8b02;
+    background-color: #faebf7;
+    text-decoration: none;
+}
+span.inactive {
+    background-color: #eee;
+    font-style: italic;
+}
